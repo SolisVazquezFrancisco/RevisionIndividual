@@ -10,17 +10,17 @@ function FrutasMostrar() {
           else if ('Manzana'===item.name)
             return <Image style={styles.imagen} source={require('../assets/Manzana.png')}/>
           else if ('Melocotón'===item.name)
-            return <Image style={styles.imagen} source={require('../assets/Melocoton.jpg')}/>
+            return <Image style={styles.imagen} source={require('../assets/Melocoton.png')}/>
           else if ('Uvas'===item.name)
             return <Image style={styles.imagen} source={require('../assets/Uvas.png')}/>
           else if ('Naranja'===item.name)
-            return <Image style={styles.imagen} source={require('../assets/Naranja.jpg')}/>
+            return <Image style={styles.imagen} source={require('../assets/Naranja.png')}/>
           else if ('Kiwi'===item.name)
-            return <Image style={styles.imagen} source={require('../assets/Kiwi.jpg')}/>
+            return <Image style={styles.imagen} source={require('../assets/Kiwi.png')}/>
           else if ('Plátano'===item.name)
             return <Image style={styles.imagen} source={require('../assets/Platano.jpg')}/>
           else if ('Pera'===item.name)
-            return <Image style={styles.imagen} source={require('../assets/Pera.jpg')}/>
+            return <Image style={styles.imagen} source={require('../assets/Pera.png')}/>
           else
             return <Image style={styles.imagen} source={require('../assets/nodisponible.png')}/>
           }
