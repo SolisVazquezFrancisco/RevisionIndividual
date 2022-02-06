@@ -11,10 +11,8 @@ function SubirFrutas({navigation}){
   const [price, setPrice] = useState(null);
 
   const onPress = () => {
-    console.log(fruit)
-    console.log(price)
-    if(isNaN(price)){
-      console.log("estoy")
+
+    if(isNaN(price === undefined || price === null || fruit === null)){
       Alert.alert("La fruta no se puede añadir")
     }else{
       fetch('http://10.0.2.2:8080/fruits', {
