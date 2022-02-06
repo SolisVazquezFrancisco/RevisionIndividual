@@ -18,7 +18,7 @@ function FrutasMostrar() {
           else if ('Kiwi'===item.name)
             return <Image style={styles.imagen} source={require('../assets/Kiwi.png')}/>
           else if ('Plátano'===item.name)
-            return <Image style={styles.imagen} source={require('../assets/Platano.jpg')}/>
+            return <Image style={styles.imagen} source={require('../assets/Platano.png')}/>
           else if ('Pera'===item.name)
             return <Image style={styles.imagen} source={require('../assets/Pera.png')}/>
           else
